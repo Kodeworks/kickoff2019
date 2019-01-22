@@ -1,0 +1,109 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.625;
+
+  background:
+    radial-gradient(#aaa 2px, transparent 3px),
+    radial-gradient(#aaa 2px, transparent 3px),
+    linear-gradient(#1a1a1a 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a6a6a6 75px, #a6a6a6 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #1a1a1a;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+  color: #fff;
+}
+
+section {
+  margin-bottom: 25px;
+  background: #1a1a1a;
+  padding: 35px 55px;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background: #1a1a1a;
+  padding: 35px 55px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #1d80ac;
+  text-decoration: none;
+  border-bottom: 1px dotted #1d80ac;
+}
+
+a:hover {
+  border-bottom-style: solid;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.text-meta {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.meta-name {
+  color: #848484;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+
+
+
+
+
+/* Headings
+------------------------------------------------------------------------------*/
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ol {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.main-header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.logo {
+  width: 140px;
+}
+
+
+@media (max-width: 750px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
